@@ -3,9 +3,13 @@
  */
 package co.edu.udea.semaforov2.dto;
 
+import java.util.Collection;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 
@@ -39,14 +43,14 @@ public class User{
 	@Column(name="sender_id")
 	private String senderId;
 	
-	/*@OneToMany(cascade = CascadeType.ALL, mappedBy="user_id")
+	@OneToMany(cascade = CascadeType.ALL, mappedBy="user_id")
 	private Collection<Tracing> tracingCollection;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy="user_id")
 	private Collection<PermissionsBySpace> permissionsBySpaceCollection;
 	
 	@OneToMany(cascade = CascadeType.ALL, mappedBy="user_id")
-	private Collection<SpacesBelongToUser> spacesBelongToUserCollection;*/
+	private Collection<SpacesBelongToUser> spacesBelongToUserCollection;
 	
 
 	/**
