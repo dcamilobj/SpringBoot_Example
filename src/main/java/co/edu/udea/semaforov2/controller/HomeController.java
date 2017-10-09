@@ -1,12 +1,15 @@
 /**
  * 
  */
-package com.example.dem;
+package co.edu.udea.semaforov2.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+
+import co.edu.udea.semaforov2.dao.UserDAO;
+import co.edu.udea.semaforov2.dto.User;
 
 /**
  * @author Duban Camilo Bedoya - dcamilobj@gmail.com

@@ -1,4 +1,4 @@
-package com.example.dem;
+package co.edu.udea.semaforov2;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

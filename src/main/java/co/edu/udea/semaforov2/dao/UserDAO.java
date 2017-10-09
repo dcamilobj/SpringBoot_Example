@@ -1,14 +1,14 @@
 /**
  * 
  */
-package com.example.dem;
+package co.edu.udea.semaforov2.dao;
 
-import java.util.List;
 
-import javax.transaction.Transactional;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
+
+import co.edu.udea.semaforov2.dto.User;
 
 /**
  * @author Duban Camilo Bedoya - Jhonatan Orozco 

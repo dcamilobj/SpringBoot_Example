@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.example.dem;
+package co.edu.udea.semaforov2.dto;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
